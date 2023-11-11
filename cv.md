@@ -19,3 +19,38 @@ I just like it when everything is beautiful. Good luck to everyone.
   * Git, GitHub
   * VS Code
   * Python
+
+## 5.Code example:
+```
+(function () {
+    const item = document.querySelector('.burger');
+    const burgerMenu = document.querySelector('.nav');
+    const menuCross = document.querySelector('.nav__cross')
+    item.addEventListener('click', () => {
+        burgerMenu.classList.add('menu__nav-appears');
+        i = 0;
+        document.querySelector('.dropMenu_Profile_no_Auth').style.visibility = 'hidden';
+        document.querySelector('.dropMenu_Profile_no_Auth').style.opacity = 0;
+    });
+    menuCross.addEventListener('click', () => {
+        burgerMenu.classList.remove('menu__nav-appears');
+    })
+}());
+```
+
+## 6.Experience :
+[Library](https://rolling-scopes-school.github.io/semion-hacker-JSFEPRESCHOOL2023Q2/library/ "library")
+
+### Projects:
+- **library**
+  - JavaScript
+  - HTML
+  - Git
+  - CSS
+
+## Education:
+**Kostyukovichi district state gymnasium. I am finishing 11th grade.**
+## Languages:
+- Russian
+- Belorussian
+- English (A1)
